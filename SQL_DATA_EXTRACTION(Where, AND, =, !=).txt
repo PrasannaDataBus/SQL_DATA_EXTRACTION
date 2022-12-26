@@ -1,0 +1,19 @@
+select distinct order.id as ORDER_ID,
+order.civility as Civilty,
+order.name as Last_name,
+order.firstname as First_name,
+order.email as email1,
+order.email1 as email2,
+order.email2 as email3,
+order.country as country,
+order.interest as likes,
+order.date_submit as First_Try_Date,
+order.date_invoice as Billing_Date,
+order.MONTANT_TTC as Amount,
+order.DUE_TTC as Due,
+order.num_order as No_order,
+order.num_invoice as No_invoice
+from
+order
+where order.DUE_TTC = 0
+and order.date_invoice != 'NULL';
