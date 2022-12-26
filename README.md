@@ -1,2 +1,2 @@
 # SQL_DATA_EXTRACTION
-Combination of (Where Clause, AND, =, !=)
+Logical operation with the combination of (Where Clause, AND, =, !=)
